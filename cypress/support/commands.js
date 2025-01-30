@@ -40,14 +40,3 @@ Cypress.Commands.add('clickLinkByLabel', (label) => { // TC no 34
 });
 
 
-// Tc 34
-/*Cypress.Commands.overwriteQuery('contains', (originalFn, subject, filter, text, options = {}) => {
-// Ensure the text is a string and handle the case-insensitive match
-if (typeof text === 'string') {
-  const caseInsensitiveText = new RegExp(text, 'i'); // Create a regex with case-insensitive flag
-  return originalFn(subject, filter, caseInsensitiveText, options);
-}
-
-// Fallback to the original function if text is not a string
-return originalFn(subject, filter, text, options);
-});*/
