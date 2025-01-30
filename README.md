@@ -37,69 +37,50 @@ This repository contains **40 Cypress automation test cases** covering various U
 
 ### **Test Cases List:**
 
-#### ✅ **Basic Cypress Tests:**
-- 00 - Demo Test (00_TC_demotest1.cy.js)
-- 01 - Launch URL (01_TC_LaunchURL.cy.js)
-- 02 - XPath Locators (02_TC_Xpath.cy.js)
+| **Category**                | **Test Case**                                                                 | **File**                                                   |
+|-----------------------------|-------------------------------------------------------------------------------|------------------------------------------------------------|
+| ✅ **Basic Cypress Tests**   | 00 - Demo Test                                                                | 00_TC_demotest1.cy.js                                      |
+|                             | 01 - Launch URL                                                              | 01_TC_LaunchURL.cy.js                                      |
+|                             | 02 - XPath Locators                                                          | 02_TC_Xpath.cy.js                                          |
+| 🔎 **Assertions & Validations** | 03 - Implicit Assertions                                                   | 03_TC_ImplicitAssertions.cy.js                             |
+|                             | 04 - Explicit Assertions                                                     | 04_TC_ExplicitAssertions.cy.js                             |
+| 🎯 **Form Elements**         | 05 - Radio Button Selection                                                  | 05_TC_RadioButton.cy.js                                    |
+|                             | 06 - Checkboxes Selection                                                   | 06_TC_CheckBoxes.cy.js                                     |
+| 📌 **Dropdown Handling**     | 07 - Dropdown with `<select>` Tag                                            | 07_TC_DropDown_SelectTagg.cy.js                            |
+|                             | 08 - Dropdown without `<select>` Tag                                         | 08_TC_Dropdown_withoutSelectTagg.cy.js                      |
+|                             | 09 - Static Search Dropdown                                                 | 09_TC_Dropdown_staticSearch.cy.js                           |
+|                             | 10 - Dynamic Dropdowns                                                      | 10_TC_DynamicDropDowns.cy.js                                |
+| ⚠️ **Alerts & Popups**       | 11 - JavaScript Alerts                                                       | 11_TC_Alerts.cy.js                                          |
+|                             | 12 - JavaScript Confirm Alerts                                              | 12_TC_JavaScriptConfirmAlerts.cy.js                         |
+|                             | 13 - JavaScript Prompt Alerts                                               | 13_TC_JavascriptPromptAlert.cy.js                           |
+|                             | 14 - Authenticated Alert (Basic Auth)                                        | 14_TC_AuthenticatedAlert.cy.js                              |
+| 🔗 **Windows, Tabs & Frames**| 15 - Handling Child Tabs                                                     | 15_TC_ChildTabs.cy.js                                       |
+|                             | 16 - Handling iFrames                                                        | 16_TC_iFrames.cy.js                                         |
+| 🗂️ **Tables & Data Extraction**| 17 - Working with Tables                                                   | 17-TC_Tables.cy.js                                          |
+|                             | 18 - Count Rows & Columns in a Table                                        | 18_TC_Tables_CalculateTotalNumberOfRowsColumns.cy.js        |
+|                             | 19 - Get Data from a Specific Table Cell                                    | 19_TC_Tables_CheckDataFromSpecificCell.cy.js                |
+|                             | 20 - Read and Extract Table Data                                            | 20_TC_Tables_ReadDataInTable.cy.js                          |
+| 🖱️ **Mouse & Keyboard Operations**| 21 - Mouse Operations (Click, Hover, etc.)                                | 21_TC_MouseOperations.cy.js                                 |
+|                             | 22 - Mouse Hovering                                                          | 22_TC_MouseOperationHoveringMouse.cy.js                     |
+|                             | 23 - Right Click (Context Menu)                                              | 23_TC_RightClick.cy.js                                      |
+|                             | 24 - Double Click Action                                                    | 24_TC_DoubleClick.cy.js                                     |
+|                             | 25 - Scrolling Page                                                          | 25_TC_ScrollingPage.cy.js                                   |
+|                             | 26 - Drag and Drop                                                          | 26_TC_DragAndDrop.cy.js                                     |
+| 📂 **File Uploads & Handling**| 27 - Single File Upload                                                     | 27_SingleFileUpload.cy.js                                   |
+|                             | 28 - File Upload & Rename                                                   | 28_TC_FileUploadAndRenameFile.cy.js                         |
+|                             | 29 - Upload File via Drag and Drop                                          | 29_TC_UploadFileByDragAndDrop.cy.js                         |
+|                             | 30 - Upload Multiple Files                                                  | 30_TC_UploadMultiplesFiles.cy.js                             |
+|                             | 31 - Upload File in Shadow DOM                                              | 31_Tc_UploadFileShadowDOM.cy.js                             |
+| 📄 **Data Handling & Customization**| 32 - Using Fixtures for Test Data                                         | 32_TC_Fixture.cy.js                                         |
+|                             | 33 - Data-Driven Testing for Login                                           | 33_TC_DataDrivenTesting_Login.cy.js                         |
+|                             | 34 - Custom Cypress Commands                                                 | 34_TC_CustomCommands.cy.js                                  |
+| 🌍 **Browser & Navigation Handling**| 35 - Browser Navigation (Back/Forward)                                   | 35_TC_BrowserNavigation.cy.js                               |
+|                             | 36 - Taking Screenshots                                                     | 36_TC_Screenshots.cy.js                                     |
+| 🏗️ **Page Object Model (POM) Implementation**| 37 - POM Without Fixtures                                      | 37_TC_POM_WithoutFixtures.cy.js                             |
+|                             | 38 - POM with Fixtures (Data-Driven)                                        | 38_TC_POM_withFixture_DataDrivenTesting.cy.js               |
+|                             | 39 - POM with Advanced Data-Driven Testing                                  | 39_TC_POM_Fixtures_DataDrive.cy.js                           |
 
-#### 🔎 **Assertions & Validations:**
-- 03 - Implicit Assertions (03_TC_ImplicitAssertions.cy.js)
-- 04 - Explicit Assertions (04_TC_ExplicitAssertions.cy.js)
 
-#### 🎯 **Form Elements:**
-- 05 - Radio Button Selection (05_TC_RadioButton.cy.js)
-- 06 - Checkboxes Selection (06_TC_CheckBoxes.cy.js)
-
-#### 📌 **Dropdown Handling:**
-- 07 - Dropdown with `<select>` Tag (07_TC_DropDown_SelectTagg.cy.js)
-- 08 - Dropdown without `<select>` Tag (08_TC_Dropdown_withoutSelectTagg.cy.js)
-- 09 - Static Search Dropdown (09_TC_Dropdown_staticSearch.cy.js)
-- 10 - Dynamic Dropdowns (10_TC_DynamicDropDowns.cy.js)
-
-#### ⚠️ **Alerts & Popups:**
-- 11 - JavaScript Alerts (11_TC_Alerts.cy.js)
-- 12 - JavaScript Confirm Alerts (12_TC_JavaScriptConfirmAlerts.cy.js)
-- 13 - JavaScript Prompt Alerts (13_TC_JavascriptPromptAlert.cy.js)
-- 14 - Authenticated Alert (Basic Auth) (14_TC_AuthenticatedAlert.cy.js)
-
-#### 🔗 **Windows, Tabs & Frames:**
-- 15 - Handling Child Tabs (15_TC_ChildTabs.cy.js)
-- 16 - Handling iFrames (16_TC_iFrames.cy.js)
-
-#### 🗂️ **Tables & Data Extraction:**
-- 17 - Working with Tables (17-TC_Tables.cy.js)
-- 18 - Count Rows & Columns in a Table (18_TC_Tables_CalculateTotalNumberOfRowsColumns.cy.js)
-- 19 - Get Data from a Specific Table Cell (19_TC_Tables_CheckDataFromSpecificCell.cy.js)
-- 20 - Read and Extract Table Data (20_TC_Tables_ReadDataInTable.cy.js)
-
-#### 🖱️ **Mouse & Keyboard Operations:**
-- 21 - Mouse Operations (Click, Hover, etc.) (21_TC_MouseOperations.cy.js)
-- 22 - Mouse Hovering (22_TC_MouseOperationHoveringMouse.cy.js)
-- 23 - Right Click (Context Menu) (23_TC_RightClick.cy.js)
-- 24 - Double Click Action (24_TC_DoubleClick.cy.js)
-- 25 - Scrolling Page (25_TC_ScrollingPage.cy.js)
-- 26 - Drag and Drop (26_TC_DragAndDrop.cy.js)
-
-#### 📂 **File Uploads & Handling:**
-- 27 - Single File Upload (27_SingleFileUpload.cy.js)
-- 28 - File Upload & Rename (28_TC_FileUploadAndRenameFile.cy.js)
-- 29 - Upload File via Drag and Drop (29_TC_UploadFileByDragAndDrop.cy.js)
-- 30 - Upload Multiple Files (30_TC_UploadMultiplesFiles.cy.js)
-- 31 - Upload File in Shadow DOM (31_Tc_UploadFileShadowDOM.cy.js)
-
-#### 📄 **Data Handling & Customization:**
-- 32 - Using Fixtures for Test Data (32_TC_Fixture.cy.js)
-- 33 - Data-Driven Testing for Login (33_TC_DataDrivenTesting_Login.cy.js)
-- 34 - Custom Cypress Commands (34_TC_CustomCommands.cy.js)
-
-#### 🌍 **Browser & Navigation Handling:**
-- 35 - Browser Navigation (Back/Forward) (35_TC_BrowserNavigation.cy.js)
-- 36 - Taking Screenshots (36_TC_Screenshots.cy.js)
-
-#### 🏗️ **Page Object Model (POM) Implementation:**
-- 37 - POM Without Fixtures (37_TC_POM_WithoutFixtures.cy.js)
-- 38 - POM with Fixtures (Data-Driven) (38_TC_POM_withFixture_DataDrivenTesting.cy.js)
-- 39 - POM with Advanced Data-Driven Testing (39_TC_POM_Fixtures_DataDrive.cy.js)
 
 ---
 
